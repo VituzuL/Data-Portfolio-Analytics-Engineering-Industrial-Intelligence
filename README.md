@@ -2,7 +2,7 @@
 
 Projetos focados em análise de dados, engenharia de dados e inteligência operacional aplicada a ambientes industriais e de negócio.
 
-Aqui, o objetivo não é apenas construir dashboards, mas estruturar dados de ponta a ponta — desde a origem da informação até a geração de valor para a tomada de decisão.
+Aqui, o objetivo não é apenas construir dashboards, mas estruturar dados de ponta a ponta, desde a origem da informação até a geração de valor para a tomada de decisão.
 
 Cada projeto busca simular problemas reais de operação, performance, eficiência, custo e estratégia, conectando análise técnica com impacto de negócio.
 
