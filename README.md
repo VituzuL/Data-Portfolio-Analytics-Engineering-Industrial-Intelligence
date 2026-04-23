@@ -236,23 +236,11 @@ python smart_factory_analysis/ml/predictive_maintenance.py
 
 # Treinar modelo (abre janela gráfica)
 python smart_factory_analysis/ml/model_training.py
+---
+python smart_factory_analysis/scripts/industrial_assistant
 
 # Iniciar assistente IA
-python smart_factory_analysis/scripts/industrial_assistant.py
-📁 Estrutura do Projeto
-text
-Data-Portfolio-Analytics-Engineering-Industrial-Intelligence/
-│
-├── smart_factory_analysis/
-│   ├── data/                    # Metadados (JSONs)
-│   ├── scripts/                 # ETL e assistente IA
-│   ├── simulation/              # Motor de simulação
-│   └── ml/                      # Feature engineering e modelos
-│
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
+
 ---
 
  Sobre Este Projeto
