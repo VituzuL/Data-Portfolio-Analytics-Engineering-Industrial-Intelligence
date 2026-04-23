@@ -1,0 +1,203 @@
+[
+  {
+    "location_id": 1,
+    "equipment_code": "1000",
+    "location_name": "Refinaria",
+    "parent_id": null,
+    "is_machine": false,
+    "description": "Area principal de refino de oleo"
+  },
+  {
+    "location_id": 2,
+    "equipment_code": "2000",
+    "location_name": "Utilidades",
+    "parent_id": null,
+    "is_machine": false,
+    "description": "Area de suporte operacional"
+  },
+  {
+    "location_id": 3,
+    "equipment_code": "3000",
+    "location_name": "Producao",
+    "parent_id": null,
+    "is_machine": false,
+    "description": "Area de formulacao e envase"
+  },
+
+  {
+    "location_id": 4,
+    "equipment_code": "1101",
+    "location_name": "Tanque Oleo Bruto 1",
+    "parent_id": 1,
+    "is_machine": true,
+    "description": "Tanque de armazenamento inicial de oleo bruto"
+  },
+  {
+    "location_id": 5,
+    "equipment_code": "1102",
+    "location_name": "Tanque Oleo Bruto 2",
+    "parent_id": 1,
+    "is_machine": true,
+    "description": "Tanque secundario de armazenamento de oleo bruto"
+  },
+
+  {
+    "location_id": 6,
+    "equipment_code": "1201",
+    "location_name": "Branqueamento 1",
+    "parent_id": 1,
+    "is_machine": true,
+    "description": "Processo principal de branqueamento e clarificacao do oleo"
+  },
+  {
+    "location_id": 7,
+    "equipment_code": "1202",
+    "location_name": "Branqueamento 2",
+    "parent_id": 1,
+    "is_machine": true,
+    "description": "Linha secundaria de branqueamento do oleo"
+  },
+
+  {
+    "location_id": 8,
+    "equipment_code": "1301",
+    "location_name": "Desodorizador 1",
+    "parent_id": 1,
+    "is_machine": true,
+    "description": "Maquina principal de desodorizacao com controle de temperatura, pressao e vacuo"
+  },
+  {
+    "location_id": 9,
+    "equipment_code": "1302",
+    "location_name": "Desodorizador 2",
+    "parent_id": 1,
+    "is_machine": true,
+    "description": "Linha secundaria de desodorizacao"
+  },
+
+  {
+    "location_id": 10,
+    "equipment_code": "2101",
+    "location_name": "Caldeira 1",
+    "parent_id": 2,
+    "is_machine": true,
+    "description": "Caldeira principal para geracao de vapor industrial"
+  },
+  {
+    "location_id": 11,
+    "equipment_code": "2102",
+    "location_name": "Caldeira 2",
+    "parent_id": 2,
+    "is_machine": true,
+    "description": "Caldeira secundaria de apoio operacional"
+  },
+
+  {
+    "location_id": 12,
+    "equipment_code": "2201",
+    "location_name": "Compressor de Ar",
+    "parent_id": 2,
+    "is_machine": true,
+    "description": "Sistema principal de ar comprimido"
+  },
+  {
+    "location_id": 13,
+    "equipment_code": "2202",
+    "location_name": "Compressor de Amonia",
+    "parent_id": 2,
+    "is_machine": true,
+    "description": "Sistema de refrigeracao com amonia"
+  },
+  {
+    "location_id": 14,
+    "equipment_code": "2301",
+    "location_name": "Sistema de Agua Industrial",
+    "parent_id": 2,
+    "is_machine": true,
+    "description": "Sistema de abastecimento e circulacao de agua industrial"
+  },
+
+  {
+    "location_id": 15,
+    "equipment_code": "3101",
+    "location_name": "Tanque Pulmao Refinado 1",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Tanque pulmao para oleo refinado apos desodorizacao"
+  },
+  {
+    "location_id": 16,
+    "equipment_code": "3102",
+    "location_name": "Tanque Pulmao Refinado 2",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Tanque secundario de oleo refinado"
+  },
+
+  {
+    "location_id": 17,
+    "equipment_code": "3201",
+    "location_name": "Tanque Formulacao A",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Tanque principal de mistura e formulacao"
+  },
+  {
+    "location_id": 18,
+    "equipment_code": "3202",
+    "location_name": "Tanque Formulacao B",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Tanque secundario de mistura e formulacao"
+  },
+  {
+    "location_id": 19,
+    "equipment_code": "3203",
+    "location_name": "Tanque Formulacao C",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Tanque terciario de mistura e formulacao"
+  },
+
+  {
+    "location_id": 20,
+    "equipment_code": "3301",
+    "location_name": "Tanque Pulmao Semiacabado A",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Tanque pulmao para produto semiacabado antes do envase"
+  },
+  {
+    "location_id": 21,
+    "equipment_code": "3302",
+    "location_name": "Tanque Pulmao Semiacabado B",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Tanque secundario de semiacabado"
+  },
+
+  {
+    "location_id": 22,
+    "equipment_code": "3401",
+    "location_name": "Linha Envase A",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Linha principal de envase"
+  },
+  {
+    "location_id": 23,
+    "equipment_code": "3402",
+    "location_name": "Linha Envase B",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Linha secundaria de envase"
+  },
+  {
+    "location_id": 24,
+    "equipment_code": "3403",
+    "location_name": "Linha Envase C",
+    "parent_id": 3,
+    "is_machine": true,
+    "description": "Linha terciaria de envase"
+  }
+]

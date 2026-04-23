@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "sku_code": 1,
+    "sku_name": "Oleo Refinado Premium 900ml",
+    "category": "edible_oil",
+    "package_size": "900ml",
+    "target_temperature": 58,
+    "target_viscosity": 32,
+    "ideal_speed": 120,
+    "raw_material_cost": 4.20,
+    "selling_price": 7.90,
+    "margin_estimate": 3.70,
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "sku_code": 2,
+    "sku_name": "Oleo Refinado Economico 1L",
+    "category": "edible_oil",
+    "package_size": "1000ml",
+    "target_temperature": 60,
+    "target_viscosity": 34,
+    "ideal_speed": 110,
+    "raw_material_cost": 4.80,
+    "selling_price": 8.50,
+    "margin_estimate": 3.70,
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "sku_code": 3,
+    "sku_name": "Oleo de Soja Especial 5L",
+    "category": "soybean_oil",
+    "package_size": "5000ml",
+    "target_temperature": 62,
+    "target_viscosity": 38,
+    "ideal_speed": 80,
+    "raw_material_cost": 18.50,
+    "selling_price": 28.90,
+    "margin_estimate": 10.40,
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "sku_code": 4,
+    "sku_name": "Oleo de Girassol Gold 900ml",
+    "category": "sunflower_oil",
+    "package_size": "900ml",
+    "target_temperature": 57,
+    "target_viscosity": 30,
+    "ideal_speed": 100,
+    "raw_material_cost": 5.40,
+    "selling_price": 9.60,
+    "margin_estimate": 4.20,
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "sku_code": 5,
+    "sku_name": "Blend Premium Chef 1L",
+    "category": "premium_blend",
+    "package_size": "1000ml",
+    "target_temperature": 61,
+    "target_viscosity": 36,
+    "ideal_speed": 95,
+    "raw_material_cost": 6.10,
+    "selling_price": 11.20,
+    "margin_estimate": 5.10,
+    "is_active": true
+  }
+]

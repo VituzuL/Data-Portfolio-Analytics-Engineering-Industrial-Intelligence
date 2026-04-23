@@ -1,0 +1,42 @@
+.env
+__pycache__/
+.ipynb_checkpoints/
+*.csv
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.env
+venv/
+env/
+ENV/
+
+# Dados grandes (não subir para o GitHub!)
+*.parquet
+*.csv
+data_ml_complete.*
+
+# Modelos treinados (podem ser grandes)
+*.pkl
+*.joblib
+models/*.pkl
+models/*.joblib
+
+# Configurações sensíveis
+.env
+*.key
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

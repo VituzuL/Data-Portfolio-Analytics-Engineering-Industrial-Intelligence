@@ -1,0 +1,1978 @@
+[
+  {
+    "tag_name": "temp_desodorizador_1",
+    "location_id": 8,
+    "description": "Temperatura principal do Desodorizador 1",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "pressure_desodorizador_1",
+    "location_id": 8,
+    "description": "Pressao principal do Desodorizador 1",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+  {
+    "tag_name": "vacuum_level_desodorizador_1",
+    "location_id": 8,
+    "description": "Nivel de vacuo absoluto do Desodorizador 1",
+    "label": "vacuum",
+    "unit": "mbar_abs",
+    "is_critical": true
+  },
+  {
+    "tag_name": "steam_consumption_desod_1",
+    "location_id": 8,
+    "description": "Consumo de vapor do Desodorizador 1",
+    "label": "flow",
+    "unit": "kg/h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "cooling_water_flow_desod_1",
+    "location_id": 8,
+    "description": "Vazao de agua de resfriamento do Desodorizador 1",
+    "label": "flow",
+    "unit": "m3/h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "differential_pressure_desod_1",
+    "location_id": 8,
+    "description": "Pressao diferencial do Desodorizador 1",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "vacuum_pump_status_1",
+    "location_id": 8,
+    "description": "Status da bomba de vacuo do Desodorizador 1",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "vacuum_pump_vibration_1",
+    "location_id": 8,
+    "description": "Vibracao da bomba de vacuo do Desodorizador 1",
+    "label": "vibration",
+    "unit": "mm/s",
+    "is_critical": true
+  },
+  {
+    "tag_name": "vacuum_pump_motor_current_1",
+    "location_id": 8,
+    "description": "Corrente do motor da bomba de vacuo do Desodorizador 1",
+    "label": "energy",
+    "unit": "A",
+    "is_critical": true
+  },
+  {
+    "tag_name": "vacuum_pump_runtime_1",
+    "location_id": 8,
+    "description": "Horimetro da bomba de vacuo do Desodorizador 1",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "high_temp_alarm_desod_1",
+    "location_id": 8,
+    "description": "Alarme de alta temperatura do Desodorizador 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "low_vacuum_alarm_desod_1",
+    "location_id": 8,
+    "description": "Alarme de baixo vacuo do Desodorizador 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_pressure_alarm_desod_1",
+    "location_id": 8,
+    "description": "Alarme de alta pressao do Desodorizador 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "vacuum_pump_trip_1",
+    "location_id": 8,
+    "description": "Trip da bomba de vacuo do Desodorizador 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_vibration_alarm_desod_1",
+    "location_id": 8,
+    "description": "Alarme de alta vibracao da bomba de vacuo",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "start_counter_desod_1",
+    "location_id": 8,
+    "description": "Contador de partidas do Desodorizador 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "trip_counter_desod_1",
+    "location_id": 8,
+    "description": "Contador de trips do Desodorizador 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_desod_1",
+    "location_id": 8,
+    "description": "Historico acumulado de falhas do Desodorizador 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_desod_1",
+    "location_id": 8,
+    "description": "Indicador de manutencao ativa no Desodorizador 1",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "days_since_last_maintenance_desod_1",
+    "location_id": 8,
+    "description": "Dias desde a ultima manutencao do Desodorizador 1",
+    "label": "maintenance",
+    "unit": "days",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "production_counter_desod_1",
+    "location_id": 8,
+    "description": "Producao acumulada do Desodorizador 1",
+    "label": "production",
+    "unit": "kg",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "temp_branqueamento_1",
+    "location_id": 6,
+    "description": "Temperatura principal do Branqueamento 1",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "pressure_branqueamento_1",
+    "location_id": 6,
+    "description": "Pressao principal do Branqueamento 1",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+  {
+    "tag_name": "flow_rate_branqueamento_1",
+    "location_id": 6,
+    "description": "Vazao do processo de Branqueamento 1",
+    "label": "flow",
+    "unit": "kg/h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "bleaching_earth_consumption_1",
+    "location_id": 6,
+    "description": "Consumo de terra branqueadora do Branqueamento 1",
+    "label": "consumption",
+    "unit": "kg",
+    "is_critical": false
+  },
+  {
+    "tag_name": "agitator_motor_current_1",
+    "location_id": 6,
+    "description": "Corrente do motor agitador do Branqueamento 1",
+    "label": "energy",
+    "unit": "A",
+    "is_critical": true
+  },
+  {
+    "tag_name": "filter_differential_pressure_1",
+    "location_id": 6,
+    "description": "Pressao diferencial do filtro do Branqueamento 1",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "high_temp_alarm_branq_1",
+    "location_id": 6,
+    "description": "Alarme de alta temperatura do Branqueamento 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "low_flow_alarm_branq_1",
+    "location_id": 6,
+    "description": "Alarme de baixa vazao do Branqueamento 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_pressure_alarm_branq_1",
+    "location_id": 6,
+    "description": "Alarme de alta pressao do Branqueamento 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "agitator_trip_1",
+    "location_id": 6,
+    "description": "Trip do agitador do Branqueamento 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "filter_clog_alarm_1",
+    "location_id": 6,
+    "description": "Alarme de entupimento do filtro do Branqueamento 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "runtime_hours_branq_1",
+    "location_id": 6,
+    "description": "Horimetro do Branqueamento 1",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "start_counter_branq_1",
+    "location_id": 6,
+    "description": "Contador de partidas do Branqueamento 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "trip_counter_branq_1",
+    "location_id": 6,
+    "description": "Contador de trips do Branqueamento 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_branq_1",
+    "location_id": 6,
+    "description": "Historico acumulado de falhas do Branqueamento 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_branq_1",
+    "location_id": 6,
+    "description": "Indicador de manutencao ativa no Branqueamento 1",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "days_since_last_maintenance_branq_1",
+    "location_id": 6,
+    "description": "Dias desde a ultima manutencao do Branqueamento 1",
+    "label": "maintenance",
+    "unit": "days",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "production_counter_branq_1",
+    "location_id": 6,
+    "description": "Producao acumulada do Branqueamento 1",
+    "label": "production",
+    "unit": "kg",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "steam_pressure_boiler_1",
+    "location_id": 10,
+    "description": "Pressao principal de vapor da Caldeira 1",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+  {
+    "tag_name": "steam_temperature_boiler_1",
+    "location_id": 10,
+    "description": "Temperatura do vapor gerado pela Caldeira 1",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "feed_water_flow_boiler_1",
+    "location_id": 10,
+    "description": "Vazao de agua de alimentacao da Caldeira 1",
+    "label": "flow",
+    "unit": "m3/h",
+    "is_critical": true
+  },
+  {
+    "tag_name": "boiler_drum_level_1",
+    "location_id": 10,
+    "description": "Nivel do tambor da Caldeira 1",
+    "label": "tank_level",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "gas_consumption_boiler_1",
+    "location_id": 10,
+    "description": "Consumo de gas da Caldeira 1",
+    "label": "consumption",
+    "unit": "Nm3/h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "exhaust_temperature_boiler_1",
+    "location_id": 10,
+    "description": "Temperatura dos gases de exaustao da Caldeira 1",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "burner_status_boiler_1",
+    "location_id": 10,
+    "description": "Status operacional do queimador da Caldeira 1",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "flame_failure_alarm_boiler_1",
+    "location_id": 10,
+    "description": "Alarme de falha de chama da Caldeira 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "low_water_level_alarm_boiler_1",
+    "location_id": 10,
+    "description": "Alarme de baixo nivel de agua da Caldeira 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_pressure_alarm_boiler_1",
+    "location_id": 10,
+    "description": "Alarme de alta pressao da Caldeira 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "burner_trip_boiler_1",
+    "location_id": 10,
+    "description": "Trip do queimador da Caldeira 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "runtime_hours_boiler_1",
+    "location_id": 10,
+    "description": "Horimetro da Caldeira 1",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "start_counter_boiler_1",
+    "location_id": 10,
+    "description": "Contador de partidas da Caldeira 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "trip_counter_boiler_1",
+    "location_id": 10,
+    "description": "Contador de trips da Caldeira 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_boiler_1",
+    "location_id": 10,
+    "description": "Historico acumulado de falhas da Caldeira 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_boiler_1",
+    "location_id": 10,
+    "description": "Indicador de manutencao ativa na Caldeira 1",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "days_since_last_maintenance_boiler_1",
+    "location_id": 10,
+    "description": "Dias desde a ultima manutencao da Caldeira 1",
+    "label": "maintenance",
+    "unit": "days",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "air_pressure_compressor_1",
+    "location_id": 12,
+    "description": "Pressao principal de descarga do Compressor de Ar",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+  {
+    "tag_name": "air_flow_compressor_1",
+    "location_id": 12,
+    "description": "Vazao de ar comprimido do Compressor de Ar",
+    "label": "flow",
+    "unit": "Nm3/h",
+    "is_critical": true
+  },
+  {
+    "tag_name": "motor_current_compressor_1",
+    "location_id": 12,
+    "description": "Corrente eletrica do motor do Compressor de Ar",
+    "label": "energy",
+    "unit": "A",
+    "is_critical": true
+  },
+  {
+    "tag_name": "oil_temperature_compressor_1",
+    "location_id": 12,
+    "description": "Temperatura do oleo lubrificante do Compressor de Ar",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "vibration_compressor_1",
+    "location_id": 12,
+    "description": "Vibracao principal do Compressor de Ar",
+    "label": "vibration",
+    "unit": "mm/s",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "compressor_status_1",
+    "location_id": 12,
+    "description": "Status operacional do Compressor de Ar",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_discharge_pressure_alarm_comp_1",
+    "location_id": 12,
+    "description": "Alarme de alta pressao de descarga do Compressor de Ar",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_oil_temp_alarm_comp_1",
+    "location_id": 12,
+    "description": "Alarme de alta temperatura de oleo do Compressor de Ar",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_vibration_alarm_comp_1",
+    "location_id": 12,
+    "description": "Alarme de alta vibracao do Compressor de Ar",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "overload_trip_comp_1",
+    "location_id": 12,
+    "description": "Trip por sobrecarga do Compressor de Ar",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "runtime_hours_comp_1",
+    "location_id": 12,
+    "description": "Horimetro do Compressor de Ar",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "start_counter_comp_1",
+    "location_id": 12,
+    "description": "Contador de partidas do Compressor de Ar",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "trip_counter_comp_1",
+    "location_id": 12,
+    "description": "Contador de trips do Compressor de Ar",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_comp_1",
+    "location_id": 12,
+    "description": "Historico acumulado de falhas do Compressor de Ar",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_comp_1",
+    "location_id": 12,
+    "description": "Indicador de manutencao ativa no Compressor de Ar",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "days_since_last_maintenance_comp_1",
+    "location_id": 12,
+    "description": "Dias desde a ultima manutencao do Compressor de Ar",
+    "label": "maintenance",
+    "unit": "days",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "suction_pressure_ammonia_comp_1",
+    "location_id": 13,
+    "description": "Pressao de succao do Compressor de Amonia",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+  {
+    "tag_name": "discharge_pressure_ammonia_comp_1",
+    "location_id": 13,
+    "description": "Pressao de descarga do Compressor de Amonia",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+  {
+    "tag_name": "discharge_temperature_ammonia_comp_1",
+    "location_id": 13,
+    "description": "Temperatura de descarga do Compressor de Amonia",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "oil_temperature_ammonia_comp_1",
+    "location_id": 13,
+    "description": "Temperatura do oleo lubrificante do Compressor de Amonia",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "motor_current_ammonia_comp_1",
+    "location_id": 13,
+    "description": "Corrente eletrica do motor do Compressor de Amonia",
+    "label": "energy",
+    "unit": "A",
+    "is_critical": true
+  },
+  {
+    "tag_name": "vibration_ammonia_comp_1",
+    "location_id": 13,
+    "description": "Vibracao principal do Compressor de Amonia",
+    "label": "vibration",
+    "unit": "mm/s",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "ammonia_compressor_status_1",
+    "location_id": 13,
+    "description": "Status operacional do Compressor de Amonia",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_discharge_temp_alarm_ammonia_1",
+    "location_id": 13,
+    "description": "Alarme de alta temperatura de descarga do Compressor de Amonia",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_pressure_alarm_ammonia_1",
+    "location_id": 13,
+    "description": "Alarme de alta pressao do Compressor de Amonia",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_vibration_alarm_ammonia_1",
+    "location_id": 13,
+    "description": "Alarme de alta vibracao do Compressor de Amonia",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "overload_trip_ammonia_1",
+    "location_id": 13,
+    "description": "Trip por sobrecarga do Compressor de Amonia",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "runtime_hours_ammonia_1",
+    "location_id": 13,
+    "description": "Horimetro do Compressor de Amonia",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "start_counter_ammonia_1",
+    "location_id": 13,
+    "description": "Contador de partidas do Compressor de Amonia",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "trip_counter_ammonia_1",
+    "location_id": 13,
+    "description": "Contador de trips do Compressor de Amonia",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_ammonia_1",
+    "location_id": 13,
+    "description": "Historico acumulado de falhas do Compressor de Amonia",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_ammonia_1",
+    "location_id": 13,
+    "description": "Indicador de manutencao ativa no Compressor de Amonia",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "days_since_last_maintenance_ammonia_1",
+    "location_id": 13,
+    "description": "Dias desde a ultima manutencao do Compressor de Amonia",
+    "label": "maintenance",
+    "unit": "days",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "tank_level_formulation_a",
+    "location_id": 17,
+    "description": "Nivel principal do Tanque de Formulacao A",
+    "label": "tank_level",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "temperature_formulation_a",
+    "location_id": 17,
+    "description": "Temperatura do Tanque de Formulacao A",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "agitator_status_formulation_a",
+    "location_id": 17,
+    "description": "Status do agitador do Tanque de Formulacao A",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "agitator_motor_current_formulation_a",
+    "location_id": 17,
+    "description": "Corrente do motor agitador do Tanque de Formulacao A",
+    "label": "energy",
+    "unit": "A",
+    "is_critical": true
+  },
+  {
+    "tag_name": "batch_time_formulation_a",
+    "location_id": 17,
+    "description": "Tempo de batelada do Tanque de Formulacao A",
+    "label": "production",
+    "unit": "min",
+    "is_critical": false
+  },
+  {
+    "tag_name": "current_sku_formulation_a",
+    "location_id": 17,
+    "description": "SKU atual em producao no Tanque de Formulacao A",
+    "label": "sku",
+    "unit": "sku_code",
+    "is_critical": false
+  },
+  {
+    "tag_name": "setup_change_flag_formulation_a",
+    "location_id": 17,
+    "description": "Indicador de troca de setup no Tanque de Formulacao A",
+    "label": "production",
+    "unit": "boolean",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "high_temp_alarm_formulation_a",
+    "location_id": 17,
+    "description": "Alarme de alta temperatura do Tanque de Formulacao A",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "low_level_alarm_formulation_a",
+    "location_id": 17,
+    "description": "Alarme de baixo nivel do Tanque de Formulacao A",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "agitator_trip_formulation_a",
+    "location_id": 17,
+    "description": "Trip do agitador do Tanque de Formulacao A",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "runtime_hours_formulation_a",
+    "location_id": 17,
+    "description": "Horimetro do Tanque de Formulacao A",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_formulation_a",
+    "location_id": 17,
+    "description": "Historico acumulado de falhas do Tanque de Formulacao A",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_formulation_a",
+    "location_id": 17,
+    "description": "Indicador de manutencao ativa no Tanque de Formulacao A",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "tank_level_buffer_refined_1",
+    "location_id": 15,
+    "description": "Nivel principal do Tanque Pulmao Refinado 1",
+    "label": "tank_level",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "temperature_buffer_refined_1",
+    "location_id": 15,
+    "description": "Temperatura do Tanque Pulmao Refinado 1",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": false
+  },
+  {
+    "tag_name": "transfer_pump_status_buffer_1",
+    "location_id": 15,
+    "description": "Status da bomba de transferencia do Tanque Pulmao Refinado 1",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "transfer_flow_buffer_1",
+    "location_id": 15,
+    "description": "Vazao de transferencia do Tanque Pulmao Refinado 1",
+    "label": "flow",
+    "unit": "m3/h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "low_level_alarm_buffer_1",
+    "location_id": 15,
+    "description": "Alarme de baixo nivel do Tanque Pulmao Refinado 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_level_alarm_buffer_1",
+    "location_id": 15,
+    "description": "Alarme de alto nivel do Tanque Pulmao Refinado 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "transfer_pump_trip_buffer_1",
+    "location_id": 15,
+    "description": "Trip da bomba de transferencia do Tanque Pulmao Refinado 1",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "production_counter_line_a",
+    "location_id": 22,
+    "description": "Producao acumulada da Linha de Envase A",
+    "label": "production",
+    "unit": "units",
+    "is_critical": false
+  },
+  {
+    "tag_name": "downtime_line_a",
+    "location_id": 22,
+    "description": "Tempo acumulado de parada da Linha de Envase A",
+    "label": "production",
+    "unit": "min",
+    "is_critical": true
+  },
+  {
+    "tag_name": "rejects_line_a",
+    "location_id": 22,
+    "description": "Quantidade de rejeitos da Linha de Envase A",
+    "label": "production",
+    "unit": "units",
+    "is_critical": false
+  },
+  {
+    "tag_name": "efficiency_line_a",
+    "location_id": 22,
+    "description": "Eficiencia operacional da Linha de Envase A",
+    "label": "production",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "current_sku_line_a",
+    "location_id": 22,
+    "description": "SKU atual em producao na Linha de Envase A",
+    "label": "sku",
+    "unit": "sku_code",
+    "is_critical": false
+  },
+  {
+    "tag_name": "setup_change_flag_line_a",
+    "location_id": 22,
+    "description": "Indicador de troca de setup da Linha de Envase A",
+    "label": "production",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "line_status_a",
+    "location_id": 22,
+    "description": "Status operacional da Linha de Envase A",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "conveyor_jam_alarm_line_a",
+    "location_id": 22,
+    "description": "Alarme de travamento de esteira da Linha de Envase A",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "low_product_supply_alarm_line_a",
+    "location_id": 22,
+    "description": "Alarme de baixa alimentacao de produto da Linha de Envase A",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "capper_fault_alarm_line_a",
+    "location_id": 22,
+    "description": "Falha no sistema de tampagem da Linha de Envase A",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "label_sensor_fault_line_a",
+    "location_id": 22,
+    "description": "Falha no sensor de rotulagem da Linha de Envase A",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  }
+,
+
+  {
+    "tag_name": "tank_level_formulation_b",
+    "location_id": 18,
+    "description": "Nivel principal do Tanque de Formulacao B",
+    "label": "tank_level",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "temperature_formulation_b",
+    "location_id": 18,
+    "description": "Temperatura do Tanque de Formulacao B",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "current_sku_formulation_b",
+    "location_id": 18,
+    "description": "SKU atual em producao no Tanque de Formulacao B",
+    "label": "sku",
+    "unit": "sku_code",
+    "is_critical": false
+  },
+  {
+    "tag_name": "setup_change_flag_formulation_b",
+    "location_id": 18,
+    "description": "Indicador de troca de setup no Tanque de Formulacao B",
+    "label": "production",
+    "unit": "boolean",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "production_counter_line_b",
+    "location_id": 23,
+    "description": "Producao acumulada da Linha de Envase B",
+    "label": "production",
+    "unit": "units",
+    "is_critical": false
+  },
+  {
+    "tag_name": "downtime_line_b",
+    "location_id": 23,
+    "description": "Tempo acumulado de parada da Linha de Envase B",
+    "label": "production",
+    "unit": "min",
+    "is_critical": true
+  },
+  {
+    "tag_name": "current_sku_line_b",
+    "location_id": 23,
+    "description": "SKU atual em producao na Linha de Envase B",
+    "label": "sku",
+    "unit": "sku_code",
+    "is_critical": false
+  },
+  {
+    "tag_name": "line_status_b",
+    "location_id": 23,
+    "description": "Status operacional da Linha de Envase B",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "conveyor_jam_alarm_line_b",
+    "location_id": 23,
+    "description": "Alarme de travamento de esteira da Linha de Envase B",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "production_counter_line_c",
+    "location_id": 24,
+    "description": "Producao acumulada da Linha de Envase C",
+    "label": "production",
+    "unit": "units",
+    "is_critical": false
+  },
+  {
+    "tag_name": "downtime_line_c",
+    "location_id": 24,
+    "description": "Tempo acumulado de parada da Linha de Envase C",
+    "label": "production",
+    "unit": "min",
+    "is_critical": true
+  },
+  {
+    "tag_name": "current_sku_line_c",
+    "location_id": 24,
+    "description": "SKU atual em producao na Linha de Envase C",
+    "label": "sku",
+    "unit": "sku_code",
+    "is_critical": false
+  },
+  {
+    "tag_name": "line_status_c",
+    "location_id": 24,
+    "description": "Status operacional da Linha de Envase C",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "conveyor_jam_alarm_line_c",
+    "location_id": 24,
+    "description": "Alarme de travamento de esteira da Linha de Envase C",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  }
+,
+
+  {
+    "tag_name": "tank_level_formulation_c",
+    "location_id": 19,
+    "description": "Nivel principal do Tanque de Formulacao C",
+    "label": "tank_level",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "temperature_formulation_c",
+    "location_id": 19,
+    "description": "Temperatura do Tanque de Formulacao C",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "agitator_status_formulation_c",
+    "location_id": 19,
+    "description": "Status do agitador do Tanque de Formulacao C",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "current_sku_formulation_c",
+    "location_id": 19,
+    "description": "SKU atual em producao no Tanque de Formulacao C",
+    "label": "sku",
+    "unit": "sku_code",
+    "is_critical": false
+  },
+  {
+    "tag_name": "setup_change_flag_formulation_c",
+    "location_id": 19,
+    "description": "Indicador de troca de setup no Tanque de Formulacao C",
+    "label": "production",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "high_temp_alarm_formulation_c",
+    "location_id": 19,
+    "description": "Alarme de alta temperatura do Tanque de Formulacao C",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "agitator_trip_formulation_c",
+    "location_id": 19,
+    "description": "Trip do agitador do Tanque de Formulacao C",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "tank_level_buffer_refined_2",
+    "location_id": 16,
+    "description": "Nivel principal do Tanque Pulmao Refinado 2",
+    "label": "tank_level",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "transfer_pump_status_buffer_2",
+    "location_id": 16,
+    "description": "Status da bomba de transferencia do Tanque Pulmao Refinado 2",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "low_level_alarm_buffer_2",
+    "location_id": 16,
+    "description": "Alarme de baixo nivel do Tanque Pulmao Refinado 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "tank_level_semi_finished_a",
+    "location_id": 20,
+    "description": "Nivel principal do Tanque Pulmao Semiacabado A",
+    "label": "tank_level",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "transfer_flow_semi_finished_a",
+    "location_id": 20,
+    "description": "Vazao de transferencia do Tanque Pulmao Semiacabado A",
+    "label": "flow",
+    "unit": "m3/h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "high_level_alarm_semi_finished_a",
+    "location_id": 20,
+    "description": "Alarme de alto nivel do Tanque Pulmao Semiacabado A",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "tank_level_semi_finished_b",
+    "location_id": 21,
+    "description": "Nivel principal do Tanque Pulmao Semiacabado B",
+    "label": "tank_level",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "transfer_flow_semi_finished_b",
+    "location_id": 21,
+    "description": "Vazao de transferencia do Tanque Pulmao Semiacabado B",
+    "label": "flow",
+    "unit": "m3/h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "high_level_alarm_semi_finished_b",
+    "location_id": 21,
+    "description": "Alarme de alto nivel do Tanque Pulmao Semiacabado B",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  }
+,
+
+  {
+    "tag_name": "temp_desodorizador_2",
+    "location_id": 9,
+    "description": "Temperatura principal do Desodorizador 2",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "pressure_desodorizador_2",
+    "location_id": 9,
+    "description": "Pressao principal do Desodorizador 2",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+  {
+    "tag_name": "vacuum_level_desodorizador_2",
+    "location_id": 9,
+    "description": "Nivel de vacuo absoluto do Desodorizador 2",
+    "label": "vacuum",
+    "unit": "mbar_abs",
+    "is_critical": true
+  },
+  {
+    "tag_name": "vacuum_pump_vibration_2",
+    "location_id": 9,
+    "description": "Vibracao da bomba de vacuo do Desodorizador 2",
+    "label": "vibration",
+    "unit": "mm/s",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_temp_alarm_desod_2",
+    "location_id": 9,
+    "description": "Alarme de alta temperatura do Desodorizador 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "low_vacuum_alarm_desod_2",
+    "location_id": 9,
+    "description": "Alarme de baixo vacuo do Desodorizador 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "trip_counter_desod_2",
+    "location_id": 9,
+    "description": "Contador de trips do Desodorizador 2",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "temp_branqueamento_2",
+    "location_id": 7,
+    "description": "Temperatura principal do Branqueamento 2",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "pressure_branqueamento_2",
+    "location_id": 7,
+    "description": "Pressao principal do Branqueamento 2",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+  {
+    "tag_name": "flow_rate_branqueamento_2",
+    "location_id": 7,
+    "description": "Vazao do processo de Branqueamento 2",
+    "label": "flow",
+    "unit": "kg/h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "filter_clog_alarm_2",
+    "location_id": 7,
+    "description": "Alarme de entupimento do filtro do Branqueamento 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "failure_counter_branq_2",
+    "location_id": 7,
+    "description": "Historico acumulado de falhas do Branqueamento 2",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "steam_pressure_boiler_2",
+    "location_id": 11,
+    "description": "Pressao principal de vapor da Caldeira 2",
+    "label": "pressure",
+    "unit": "bar",
+    "is_critical": true
+  },
+  {
+    "tag_name": "boiler_drum_level_2",
+    "location_id": 11,
+    "description": "Nivel do tambor da Caldeira 2",
+    "label": "tank_level",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "flame_failure_alarm_boiler_2",
+    "location_id": 11,
+    "description": "Alarme de falha de chama da Caldeira 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "trip_counter_boiler_2",
+    "location_id": 11,
+    "description": "Contador de trips da Caldeira 2",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "feed_water_flow_boiler_2",
+    "location_id": 11,
+    "description": "Vazao de agua de alimentacao da Caldeira 2",
+    "label": "flow",
+    "unit": "m3/h",
+    "is_critical": true
+  },
+  {
+    "tag_name": "gas_consumption_boiler_2",
+    "location_id": 11,
+    "description": "Consumo de gas da Caldeira 2",
+    "label": "consumption",
+    "unit": "Nm3/h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "burner_trip_boiler_2",
+    "location_id": 11,
+    "description": "Trip do queimador da Caldeira 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "runtime_hours_boiler_2",
+    "location_id": 11,
+    "description": "Horimetro da Caldeira 2",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "production_counter_desod_2",
+    "location_id": 9,
+    "description": "Producao acumulada do Desodorizador 2",
+    "label": "production",
+    "unit": "kg",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_desod_2",
+    "location_id": 9,
+    "description": "Indicador de manutencao ativa no Desodorizador 2",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_desod_2",
+    "location_id": 9,
+    "description": "Historico acumulado de falhas do Desodorizador 2",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "production_counter_branq_2",
+    "location_id": 7,
+    "description": "Producao acumulada do Branqueamento 2",
+    "label": "production",
+    "unit": "kg",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_branq_2",
+    "location_id": 7,
+    "description": "Indicador de manutencao ativa no Branqueamento 2",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "runtime_hours_line_a",
+    "location_id": 22,
+    "description": "Horimetro operacional da Linha de Envase A",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_line_a",
+    "location_id": 22,
+    "description": "Historico acumulado de falhas da Linha de Envase A",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "runtime_hours_line_b",
+    "location_id": 23,
+    "description": "Horimetro operacional da Linha de Envase B",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_line_b",
+    "location_id": 23,
+    "description": "Historico acumulado de falhas da Linha de Envase B",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "runtime_hours_line_c",
+    "location_id": 24,
+    "description": "Horimetro operacional da Linha de Envase C",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_line_c",
+    "location_id": 24,
+    "description": "Historico acumulado de falhas da Linha de Envase C",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "agitator_status_formulation_b",
+    "location_id": 18,
+    "description": "Status do agitador do Tanque de Formulacao B",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "agitator_motor_current_formulation_b",
+    "location_id": 18,
+    "description": "Corrente do motor agitador do Tanque de Formulacao B",
+    "label": "energy",
+    "unit": "A",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_temp_alarm_formulation_b",
+    "location_id": 18,
+    "description": "Alarme de alta temperatura do Tanque de Formulacao B",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "agitator_trip_formulation_b",
+    "location_id": 18,
+    "description": "Trip do agitador do Tanque de Formulacao B",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "high_level_alarm_buffer_2",
+    "location_id": 16,
+    "description": "Alarme de alto nivel do Tanque Pulmao Refinado 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "transfer_pump_trip_buffer_2",
+    "location_id": 16,
+    "description": "Trip da bomba de transferencia do Tanque Pulmao Refinado 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "rejects_line_b",
+    "location_id": 23,
+    "description": "Quantidade de rejeitos da Linha de Envase B",
+    "label": "production",
+    "unit": "units",
+    "is_critical": false
+  },
+  {
+    "tag_name": "efficiency_line_b",
+    "location_id": 23,
+    "description": "Eficiencia operacional da Linha de Envase B",
+    "label": "production",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "capper_fault_alarm_line_b",
+    "location_id": 23,
+    "description": "Falha no sistema de tampagem da Linha de Envase B",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "rejects_line_c",
+    "location_id": 24,
+    "description": "Quantidade de rejeitos da Linha de Envase C",
+    "label": "production",
+    "unit": "units",
+    "is_critical": false
+  },
+  {
+    "tag_name": "efficiency_line_c",
+    "location_id": 24,
+    "description": "Eficiencia operacional da Linha de Envase C",
+    "label": "production",
+    "unit": "%",
+    "is_critical": true
+  },
+  {
+    "tag_name": "capper_fault_alarm_line_c",
+    "location_id": 24,
+    "description": "Falha no sistema de tampagem da Linha de Envase C",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  }
+,
+
+  {
+    "tag_name": "label_sensor_fault_line_b",
+    "location_id": 23,
+    "description": "Falha no sensor de rotulagem da Linha de Envase B",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "setup_change_flag_line_b",
+    "location_id": 23,
+    "description": "Indicador de troca de setup da Linha de Envase B",
+    "label": "production",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_line_b",
+    "location_id": 23,
+    "description": "Indicador de manutencao ativa da Linha de Envase B",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "label_sensor_fault_line_c",
+    "location_id": 24,
+    "description": "Falha no sensor de rotulagem da Linha de Envase C",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "setup_change_flag_line_c",
+    "location_id": 24,
+    "description": "Indicador de troca de setup da Linha de Envase C",
+    "label": "production",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_line_c",
+    "location_id": 24,
+    "description": "Indicador de manutencao ativa da Linha de Envase C",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "runtime_hours_formulation_b",
+    "location_id": 18,
+    "description": "Horimetro do Tanque de Formulacao B",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_formulation_b",
+    "location_id": 18,
+    "description": "Historico acumulado de falhas do Tanque de Formulacao B",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_formulation_b",
+    "location_id": 18,
+    "description": "Indicador de manutencao ativa no Tanque de Formulacao B",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "runtime_hours_formulation_c",
+    "location_id": 19,
+    "description": "Horimetro do Tanque de Formulacao C",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_formulation_c",
+    "location_id": 19,
+    "description": "Historico acumulado de falhas do Tanque de Formulacao C",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_formulation_c",
+    "location_id": 19,
+    "description": "Indicador de manutencao ativa no Tanque de Formulacao C",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "steam_temperature_boiler_2",
+    "location_id": 11,
+    "description": "Temperatura do vapor gerado pela Caldeira 2",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": true
+  },
+  {
+    "tag_name": "exhaust_temperature_boiler_2",
+    "location_id": 11,
+    "description": "Temperatura dos gases de exaustao da Caldeira 2",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": false
+  },
+  {
+    "tag_name": "burner_status_boiler_2",
+    "location_id": 11,
+    "description": "Status operacional do queimador da Caldeira 2",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+  {
+    "tag_name": "low_water_level_alarm_boiler_2",
+    "location_id": 11,
+    "description": "Alarme de baixo nivel de agua da Caldeira 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "high_pressure_alarm_boiler_2",
+    "location_id": 11,
+    "description": "Alarme de alta pressao da Caldeira 2",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "start_counter_boiler_2",
+    "location_id": 11,
+    "description": "Contador de partidas da Caldeira 2",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_boiler_2",
+    "location_id": 11,
+    "description": "Historico acumulado de falhas da Caldeira 2",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_boiler_2",
+    "location_id": 11,
+    "description": "Indicador de manutencao ativa na Caldeira 2",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "days_since_last_maintenance_boiler_2",
+    "location_id": 11,
+    "description": "Dias desde a ultima manutencao da Caldeira 2",
+    "label": "maintenance",
+    "unit": "days",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "high_level_alarm_semi_finished_b",
+    "location_id": 21,
+    "description": "Alarme de alto nivel do Tanque Pulmao Semiacabado B",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "low_level_alarm_semi_finished_b",
+    "location_id": 21,
+    "description": "Alarme de baixo nivel do Tanque Pulmao Semiacabado B",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "transfer_pump_status_semi_finished_b",
+    "location_id": 21,
+    "description": "Status da bomba de transferencia do Tanque Pulmao Semiacabado B",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  }
+,
+
+  {
+    "tag_name": "low_level_alarm_formulation_b",
+    "location_id": 18,
+    "description": "Alarme de baixo nivel do Tanque de Formulacao B",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "batch_time_formulation_b",
+    "location_id": 18,
+    "description": "Tempo de batelada do Tanque de Formulacao B",
+    "label": "production",
+    "unit": "min",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "low_level_alarm_formulation_c",
+    "location_id": 19,
+    "description": "Alarme de baixo nivel do Tanque de Formulacao C",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "agitator_motor_current_formulation_c",
+    "location_id": 19,
+    "description": "Corrente do motor agitador do Tanque de Formulacao C",
+    "label": "energy",
+    "unit": "A",
+    "is_critical": true
+  },
+  {
+    "tag_name": "batch_time_formulation_c",
+    "location_id": 19,
+    "description": "Tempo de batelada do Tanque de Formulacao C",
+    "label": "production",
+    "unit": "min",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "temperature_buffer_refined_2",
+    "location_id": 16,
+    "description": "Temperatura do Tanque Pulmao Refinado 2",
+    "label": "temperature",
+    "unit": "C",
+    "is_critical": false
+  },
+  {
+    "tag_name": "transfer_flow_buffer_2",
+    "location_id": 16,
+    "description": "Vazao de transferencia do Tanque Pulmao Refinado 2",
+    "label": "flow",
+    "unit": "m3/h",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "low_level_alarm_semi_finished_a",
+    "location_id": 20,
+    "description": "Alarme de baixo nivel do Tanque Pulmao Semiacabado A",
+    "label": "alarm",
+    "unit": "boolean",
+    "is_critical": true
+  },
+  {
+    "tag_name": "transfer_pump_status_semi_finished_a",
+    "location_id": 20,
+    "description": "Status da bomba de transferencia do Tanque Pulmao Semiacabado A",
+    "label": "status",
+    "unit": "status_code",
+    "is_critical": true
+  },
+
+  {
+    "tag_name": "runtime_hours_buffer_1",
+    "location_id": 15,
+    "description": "Horimetro do Tanque Pulmao Refinado 1",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "runtime_hours_buffer_2",
+    "location_id": 16,
+    "description": "Horimetro do Tanque Pulmao Refinado 2",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  }
+,
+
+  {
+    "tag_name": "failure_counter_buffer_1",
+    "location_id": 15,
+    "description": "Historico acumulado de falhas do Tanque Pulmao Refinado 1",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_buffer_1",
+    "location_id": 15,
+    "description": "Indicador de manutencao ativa no Tanque Pulmao Refinado 1",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_buffer_2",
+    "location_id": 16,
+    "description": "Historico acumulado de falhas do Tanque Pulmao Refinado 2",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_buffer_2",
+    "location_id": 16,
+    "description": "Indicador de manutencao ativa no Tanque Pulmao Refinado 2",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "runtime_hours_semi_finished_a",
+    "location_id": 20,
+    "description": "Horimetro do Tanque Pulmao Semiacabado A",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_semi_finished_a",
+    "location_id": 20,
+    "description": "Historico acumulado de falhas do Tanque Pulmao Semiacabado A",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_semi_finished_a",
+    "location_id": 20,
+    "description": "Indicador de manutencao ativa no Tanque Pulmao Semiacabado A",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  },
+
+  {
+    "tag_name": "runtime_hours_semi_finished_b",
+    "location_id": 21,
+    "description": "Horimetro do Tanque Pulmao Semiacabado B",
+    "label": "runtime",
+    "unit": "h",
+    "is_critical": false
+  },
+  {
+    "tag_name": "failure_counter_semi_finished_b",
+    "location_id": 21,
+    "description": "Historico acumulado de falhas do Tanque Pulmao Semiacabado B",
+    "label": "maintenance",
+    "unit": "count",
+    "is_critical": false
+  },
+  {
+    "tag_name": "maintenance_flag_semi_finished_b",
+    "location_id": 21,
+    "description": "Indicador de manutencao ativa no Tanque Pulmao Semiacabado B",
+    "label": "maintenance",
+    "unit": "boolean",
+    "is_critical": false
+  }
+]
