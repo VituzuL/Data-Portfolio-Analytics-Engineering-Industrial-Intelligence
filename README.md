@@ -253,7 +253,9 @@ Data-Portfolio-Analytics-Engineering-Industrial-Intelligence/
 ├── .env.example
 ├── .gitignore
 └── README.md
-👨‍💻 Sobre Este Projeto
+---
+
+ Sobre Este Projeto
 Este projeto foi desenvolvido como portfólio profissional com foco em Data Analytics, Analytics Engineering e Data Engineering aplicados ao contexto industrial.
 
 A proposta não foi criar apenas mais um projeto de Machine Learning, mas demonstrar capacidade de construir soluções completas de dados com visão de negócio, arquitetura consistente e aplicabilidade real.
