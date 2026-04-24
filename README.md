@@ -62,28 +62,8 @@ Interface conversacional com LLM integrada ao banco de dados, permitindo consult
 
 ## 🏗️ Arquitetura da Solução
 
-┌──────────────────────────────────────────────────────────────┐
-│                  INDUSTRIAL INTELLIGENCE                     │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  JSON Metadata → PostgreSQL → Python ETL → ML Model          │
-│                                                              │
-│       ↓               ↓             ↓            ↓           │
-│                                                              │
-│   Equipments     Data Storage   Feature Eng.   Prediction    │
-│                                                              │
-│       ↓                                              ↓       │
-│                                                              │
-│        Realistic Industrial Simulation Engine                │
-│   (Failure Cycles + Sensor Correlation + SKU Rotation)       │
-│                                                              │
-│                              ↓                               │
-│                                                              │
-│             AI Industrial Assistant (Gemini)                 │
-│                                                              │
-│     Natural Language Queries + Operational Insights          │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d0347963-1f13-4006-88c7-d632a05a081c" />
+
 
 
 ---
@@ -183,63 +163,6 @@ Com respostas contextualizadas e **recomendações acionáveis**.
 
 > O projeto foi pensado para responder uma pergunta simples:
 > **"Como usar dados para evitar que a operação pare?"**
-
----
-
-## 🚀 Como Executar
-
-### Pré-requisitos
-
-- Python 3.10+
-- PostgreSQL
-- Git
-
-### Instalação
-
-/```bash
-# Clonar repositório
-git clone https://github.com/VituzuL/Data-Portfolio-Analytics-Engineering-Industrial-Intelligence.git
-cd Data-Portfolio-Analytics-Engineering-Industrial-Intelligence
-
-# Criar ambiente virtual
-python -m venv venv
-
-# Ativar ambiente
-# Windows
-venv\Scripts\activate
-# Linux/Mac
-source venv/bin/activate
-
-# Instalar dependências
-pip install -r requirements.txt
-
-
-Configuração
-bash
-# Criar banco
-psql -U postgres -c "CREATE DATABASE smart_factory;"
-
-# Configurar .env
-cp .env.example .env
-Edite o arquivo .env com suas credenciais de banco.
-
-Execução
-bash
-# Carregar metadados
-python smart_factory_analysis/scripts/atualizar_tabelas_metadata.py
-
-# Gerar dados simulados
-python smart_factory_analysis/simulation/generator.py
-
-# Preparar dataset
-python smart_factory_analysis/ml/predictive_maintenance.py
-
-# Treinar modelo (abre janela gráfica)
-python smart_factory_analysis/ml/model_training.py
----
-python smart_factory_analysis/scripts/industrial_assistant
-
-# Iniciar assistente IA
 
 ---
 
